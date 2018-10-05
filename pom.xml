@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
     <modules>
         <module>javaparser-core</module>
-        <module>javaparser-testing</module>
+        <!--module>javaparser-testing</module-->
     </modules>
 
 	<groupId>com.github.javaparser</groupId>
@@ -114,7 +114,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
+		<java.version>1.7</java.version>
 
 		<!-- Maven Plugins -->
 		<javacc-maven-plugin.version>2.6</javacc-maven-plugin.version>
@@ -147,7 +147,7 @@
 			<url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/</url>
 		</repository>
 	</distributionManagement>
-	
+
 	<build>
 		<plugins>
 			<plugin>
